@@ -7,7 +7,7 @@ import sys
 class Browser(QMainWindow):
     def __init__(self):
         super().__init__()
-        self.setWindowTitle("TurkeyBrowser by Turkey")
+        self.setWindowTitle("PyBrowser by Turkey")
         self.resize(1024, 768)
 
         self.webview = QWebEngineView()
