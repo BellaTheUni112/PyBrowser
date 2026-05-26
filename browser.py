@@ -33,7 +33,7 @@ class Browser(QMainWindow):
         nav.addWidget(self.urlbar)
 
         self.webview.urlChanged.connect(self.update_urlbar)
-        self.webview.setUrl(QUrl("https://turkey112.online/"))
+        self.webview.setUrl(QUrl("https://turkey112.online/search/"))
 
     def navigate_to_url(self):
         text = self.urlbar.text().strip()
